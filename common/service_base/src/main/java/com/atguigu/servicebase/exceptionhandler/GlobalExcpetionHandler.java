@@ -18,7 +18,7 @@ public class GlobalExcpetionHandler {
     //全局异常处理
     public R error(Exception e){
         e.printStackTrace();
-        return  R.error().message("执行了全局的异常处理");
+        return  R.error().message("执行了全局的异常处理111");
     }
     //特定异常处理
     @ExceptionHandler(ArithmeticException.class)
